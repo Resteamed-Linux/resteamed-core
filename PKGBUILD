@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/Kevadroz/resteamed-core"
 license=('GPL3')
 depends=()
-source=("$pkgname-$pkgver::https://github.com/Resteamed-Linux/$pkgname/releases/download/v$pkgver/resteamed-core-0.1-tarball.tar.gz")
+source=("$pkgname-$pkgver::https://github.com/Resteamed-Linux/$pkgname/releases/download/v$pkgver/resteamed-core-$pkgver-tarball.tar.gz")
 
 package() {
 	cp -r "$srcdir/usr" "$srcdir/etc" "$pkgdir/"
